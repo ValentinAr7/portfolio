@@ -1,0 +1,48 @@
+.infoSection {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.icon {
+  background-color: var(--primary-color);
+  padding: 10px;
+  color: var(--icons-color);
+  border-radius: 10px;
+  box-shadow: 0 2px 8px 0 var(--icons-color), 0 4px 10px 0 var(--icons-color);
+  margin-right: 10px;
+}
+
+.email,
+.phone,
+.github,
+.linkedin {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+
+.details {
+  margin-left: 20px;
+}
+
+span {
+  font-weight: bold;
+  color: var(--text-color);
+}
+
+p {
+  margin-top: 5px;
+  margin-bottom: 0;
+  color: var(--text-color);
+  width: 200px;
+  word-wrap: break-word;
+}
+
+a {
+  margin-top: 5px;
+  margin-bottom: 0;
+
+  color: var(--text-color);
+  font-weight: bold;
+}

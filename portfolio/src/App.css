@@ -3,4 +3,16 @@ body {
   padding: 0;
 }
 
+:root {
+  --background-color: #1e1e1f;
+  --primary-color: #333333;
+  --text-color: #ececec;
+  --icons-color: #cc6666;
+  --brown-color: #1c1c1c;
+}
 
+/* @font-face {
+  font-family: "MarckScripts";
+  src: url("./assets/Fonts/Marck_Script/MarckScript-Regular.ttf")
+    format("truetype");
+} */

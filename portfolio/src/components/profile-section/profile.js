@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./profile.module.css";
 import profileImage from "../../images/logo.png";
+import InfoSection from "./infoSection";
 
 const Profile = () => {
   return (
@@ -9,11 +10,10 @@ const Profile = () => {
         <img src={profileImage} alt="Logo" className={styles.profileImage} />
         <h2>Valentin Arnautski</h2>
         <p className={styles.role}>SOFTWARE ENGINEER</p>
+        <div className={styles.separator}></div>
       </div>
 
-      <div className={styles.infoSection}>
-        <h1>Info</h1>
-      </div>
+      <InfoSection />
     </div>
   );
 };
