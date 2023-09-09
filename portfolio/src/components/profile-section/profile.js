@@ -8,6 +8,11 @@ const Profile = () => {
       <div className={styles.profileSection}>
         <img src={profileImage} alt="Logo" className={styles.profileImage} />
         <h2>Valentin Arnautski</h2>
+        <p className={styles.role}>SOFTWARE ENGINEER</p>
+      </div>
+
+      <div className={styles.infoSection}>
+        <h1>Info</h1>
       </div>
     </div>
   );
