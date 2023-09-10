@@ -1,0 +1,39 @@
+.container {
+  margin-top: 10%;
+  padding: 3px 2rem;
+  border-radius: 20px;
+  box-shadow: 0 0 6px 1px var(--icons-color); /* Customize color (#00f is blue) and spread radius */
+}
+
+.aboutContainer {
+  display: flex;
+  flex-direction: row;
+  text-align: justify;
+}
+
+.description {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.heading {
+  color: var(--text-color);
+}
+
+.icon {
+  font-size: 24px;
+}
+
+.subtitle {
+  color: var(--text-color);
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.aboutImage {
+  width: 160px;
+  height: 120px;
+}
