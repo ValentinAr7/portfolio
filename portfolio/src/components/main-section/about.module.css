@@ -37,3 +37,7 @@
   width: 160px;
   height: 120px;
 }
+
+.hobbi {
+  color: var(--text-color);
+}

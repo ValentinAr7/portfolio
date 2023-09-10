@@ -76,6 +76,36 @@ const About = () => {
             <span className={styles.icon}>✔️</span>.
           </p>
         </div>
+
+        <div className={styles.skillsContainer}>
+          <h3 className={styles.subtitle}>Passions and Interests</h3>
+          <p className={styles.description}>
+            When it comes to my passions and interests, here's what drives me:
+          </p>
+
+          <ul className={styles.interestsList}>
+            <li className={styles.hobbi}>
+              <span className={styles.icon}>🔧</span> Fixing problems and
+              writing code
+            </li>
+            <li className={styles.hobbi}>
+              <span className={styles.icon}>⚽</span> Football, tennis and
+              nature
+            </li>
+            <li className={styles.hobbi}>
+              <span className={styles.icon}>🪙</span> Blockchain and Crypto
+            </li>
+            <li className={styles.hobbi}>
+              <span className={styles.icon}>📊</span> Marketing and sales
+            </li>
+            <li className={styles.hobbi}>
+              <span className={styles.icon}>💼</span> Business
+            </li>
+            <li className={styles.hobbi}>
+              <span className={styles.icon}>📚</span> Books
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   );
