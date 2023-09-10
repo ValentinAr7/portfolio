@@ -11,6 +11,20 @@ body {
   --brown-color: #1c1c1c;
 }
 
+.app {
+  display: flex;
+  flex-direction: row;
+}
+
+.mainContainer {
+  background-color: var(--background-color);
+  position: relative;
+  width: 100%;
+  margin-left: 60px;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+
 /* @font-face {
   font-family: "MarckScripts";
   src: url("./assets/Fonts/Marck_Script/MarckScript-Regular.ttf")

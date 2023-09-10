@@ -1,0 +1,18 @@
+.header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 500px;
+  background-color: #333;
+  color: white;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom-left-radius: 20px;
+  box-shadow: -1px 3px 10px var(--icons-color);
+}
+
+.header .navBtn {
+  color: var(--text-color);
+  font-weight: bold;
+}
