@@ -6,9 +6,13 @@
 
 .title {
   color: var(--text-color);
+  margin-top: 40px;
 }
 
 .skillContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   background-color: var(--primary-color);
   border-radius: 20px;
   width: 44%;
@@ -19,4 +23,12 @@
 
 .description {
   width: 100%;
+  margin: 16px 0;
+  text-align: justify;
+}
+
+.icon {
+  color: var(--icons-color);
+  font-size: larger;
+  font-size: 2.5rem;
 }
