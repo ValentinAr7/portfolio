@@ -1,5 +1,5 @@
 import styles from "./about.module.css";
-import aboutImage from "../../images/about.png";
+import aboutImage from "../../../images/about.png";
 import Skills from "./Skills";
 
 const About = () => {

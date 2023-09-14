@@ -1,0 +1,36 @@
+.container {
+  margin-top: 4%;
+  padding: 3px 2rem;
+  border-radius: 20px;
+  box-shadow: 0 0 6px 1px var(--icons-color); /* Customize color (#00f is blue) and spread radius */
+}
+
+.heading {
+  color: var(--text-color);
+}
+
+.education {
+  margin-bottom: 40px;
+}
+
+.college {
+  font-size: 20px;
+  color: var(--text-color);
+  font-weight: bold;
+  width: 100%;
+}
+
+.type {
+  width: 100%;
+}
+
+.town {
+  font-size: 14px;
+  font-weight: 300;
+  color: var(--text-color);
+}
+
+.description {
+  margin-top: 20px;
+  width: 100%;
+}

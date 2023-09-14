@@ -2,10 +2,10 @@ import "./App.css";
 import Profile from "./components/profile-section/profile";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/header-section/Header";
-import About from "./components/main-section/About";
-import Resume from "./components/main-section/Resume";
-import Experiance from "./components/main-section/Experiance";
+import About from "./components/main-section/About/About";
+import Experiance from "./components/main-section/Education";
 import Projects from "./components/main-section/Projects";
+import Education from "./components/main-section/Education/Education";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
         <div className="mainContainer">
           <Header />
           <About />
-          <Resume />
+          <Education />
           <Experiance />
           <Projects />
           {/* <Routes>
