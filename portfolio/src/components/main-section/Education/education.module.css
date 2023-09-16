@@ -81,6 +81,7 @@
   position: relative;
   border-radius: 6px;
   border-radius: 20px;
+  box-shadow: 0px 5px 10px var(--icons-color); /* Updated box-shadow */
 }
 
 .title {
@@ -104,4 +105,16 @@ p {
   text-align: justify;
 }
 
-/* Add your media queries here for responsiveness if needed */
+.containerContent {
+  display: inline-block;
+  vertical-align: middle; /* Aligns elements vertically in the middle */
+}
+
+.expansionBtn {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 14px;
+}
