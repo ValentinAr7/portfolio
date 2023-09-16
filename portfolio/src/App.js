@@ -3,9 +3,9 @@ import Profile from "./components/profile-section/profile";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/header-section/Header";
 import About from "./components/main-section/About/About";
-import Experiance from "./components/main-section/Education";
-import Projects from "./components/main-section/Projects";
 import Education from "./components/main-section/Education/Education";
+import Experience from "./components/main-section/Education";
+import Projects from "./components/main-section/Projects";
 
 function App() {
   return (
@@ -16,14 +16,13 @@ function App() {
         </div>
         <div className="mainContainer">
           <Header />
-          <About />
-          <Education />
-          <Experiance />
-          <Projects />
-          {/* <Routes>
-            <Route path="/" element={<AboutUs />} />
-            <Route path="/dashboard" element={<Dashboard />} />{" "}
-          </Routes> */}
+          <Routes>
+            <Route path="/" element={<About />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/education" element={<Education />} />
+            <Route path="/experience" element={<Experience />} />
+            <Route path="/projects" element={<Projects />} />
+          </Routes>
         </div>
       </BrowserRouter>
     </div>
